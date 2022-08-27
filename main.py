@@ -5,7 +5,6 @@ from caesar_decoder import Caesar
 def exit_decoder() -> str:
     return "Niestety wychodzimy z programu. Do widzenia!"
 
-
 # Wszystko co wykonalismy to -> wzorzec projektowy fasada
 def main_executor() -> None:
     while True:
