@@ -70,6 +70,7 @@ class Caesar:
             file.write(self.output_msg)
             file.write('\n')
 
+
     def return_output(self):
         return f"Your decoded text is - {self.output_msg}"
 
