@@ -63,7 +63,7 @@ class Caesar:
                 self.output_msg += chr(letter_position + 3)
             else:
                 self.output_msg += chr(letter_position - 3)
-        print(self.output_msg)
+        print(f"Twój tekst po wybranej operacji to: {self.output_msg}")
 
     def save_results(self) -> None:
         with open("cezar.txt", "a") as file:

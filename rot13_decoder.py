@@ -68,7 +68,7 @@ class Rot13:
                 self.output_msg += chr(letter_position + 13)
             else:
                 self.output_msg += chr(letter_position - 13)
-        print(self.output_msg)
+        print(f"Twój tekst po wybranej operacji to: {self.output_msg}")
 
     def save_results(self) -> None:
         with open("ROT13.txt", "a") as file:
