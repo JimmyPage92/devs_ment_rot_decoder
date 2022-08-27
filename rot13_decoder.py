@@ -71,7 +71,7 @@ class Rot13:
         print(self.output_msg)
 
     def save_results(self) -> None:
-        with open("rot13.txt", "a") as file:
+        with open("ROT13.txt", "a") as file:
             file.write(self.output_msg)
             file.write('\n')
 

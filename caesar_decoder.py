@@ -66,7 +66,7 @@ class Caesar:
         print(self.output_msg)
 
     def save_results(self) -> None:
-        with open("caesar.txt", "a") as file:
+        with open("cezar.txt", "a") as file:
             file.write(self.output_msg)
             file.write('\n')
 
